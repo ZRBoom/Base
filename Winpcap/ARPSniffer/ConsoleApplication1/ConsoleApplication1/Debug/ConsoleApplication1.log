@@ -1,0 +1,19 @@
+﻿Сборка начата 03.05.2015 13:01:19.
+     1>Проект "D:\VS_projects\ThirdProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /ID:\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>d:\vs_projects\thirdproject\consoleapplication1\consoleapplication1\consoleapplication1.cpp(8): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
+     1>d:\vs_projects\thirdproject\consoleapplication1\consoleapplication1\consoleapplication1.cpp(203): warning C4101: ip_len: неиспользованная локальная переменная
+     1>d:\vs_projects\thirdproject\consoleapplication1\consoleapplication1\consoleapplication1.cpp(204): warning C4101: sport: неиспользованная локальная переменная
+     1>d:\vs_projects\thirdproject\consoleapplication1\consoleapplication1\consoleapplication1.cpp(204): warning C4101: dport: неиспользованная локальная переменная
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS_projects\ThirdProject\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\WpdPack_4_1_2\WpdPack\Lib wpcap.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS_projects\ThirdProject\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS_projects\ThirdProject\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+         ConsoleApplication1.vcxproj -> D:\VS_projects\ThirdProject\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Сборка проекта "D:\VS_projects\ThirdProject\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.14

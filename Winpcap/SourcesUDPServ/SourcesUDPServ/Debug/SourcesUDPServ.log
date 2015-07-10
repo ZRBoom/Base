@@ -1,0 +1,11 @@
+﻿Build started 17.12.2014 15:16:24.
+     1>Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\SourcesUDPServ\SourcesUDPServ.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\Debug\SourcesUDPServ.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\Debug\SourcesUDPServ.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\Debug\SourcesUDPServ.lib" /MACHINE:X86 Debug\Server.obj
+         Debug\Source.obj
+         SourcesUDPServ.vcxproj -> C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\Debug\SourcesUDPServ.exe
+     1>Done Building Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesUDPServ\SourcesUDPServ\SourcesUDPServ.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36

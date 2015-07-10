@@ -1,0 +1,24 @@
+﻿Build started 08.12.2014 13:44:55.
+     1>Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesSend\SourcesSend\SourcesSend.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SourcesSend.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\WpdPack\Include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ZRProxy.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ZRProxy.cpp pcapsend.cpp
+         ZRProxy.cpp
+     1>ZRProxy.cpp(55): warning C4309: '=' : truncation of constant value
+     1>ZRProxy.cpp(65): warning C4309: 'initializing' : truncation of constant value
+     1>ZRProxy.cpp(66): warning C4309: 'initializing' : truncation of constant value
+         pcapsend.cpp
+     1>pcapsend.cpp(120): warning C4309: '=' : truncation of constant value
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesSend\Debug\ZRProxy.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\WpdPack\Lib wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesSend\Debug\ZRProxy.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\pcapsend.obj
+         Debug\ZRProxy.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>pcapsend.obj : warning LNK4248: unresolved typeref token (01000014) for 'pcap'; image may not run
+         SourcesSend.vcxproj -> C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesSend\Debug\ZRProxy.exe
+     1>Done Building Project "C:\Users\Roman\Documents\Visual Studio 2013\Projects\Proxy\SourcesSend\SourcesSend\SourcesSend.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47
